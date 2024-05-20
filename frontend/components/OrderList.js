@@ -6,7 +6,7 @@ import { selectSizeFilter } from '../state/filterSlice'
 export default function OrderList() {
   const { data: orders } = useGetOrdersQuery()
   // const filter = useSelector(st => st.filters.pizzaSize)
- //  const dispatch = useDispatch()
+     const dispatch = useDispatch()
 
   return (
     <div id="orderList">
